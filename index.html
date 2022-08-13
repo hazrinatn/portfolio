@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, I'm Hazrina</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href ="#about"> About</a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <li><a href="#contact"> Contact</a></li>
+          </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="welcome">
+        <h1 class="welcome-header">Hi 👋, I'm Hazrina</h1>
+        <p>a web developer</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+        <h1 class="about-header">About Me</h1>
+        <p>I'm a software engineer based in Jakarta, Indonesia.</p>
+        <p>After getting my Bachelor's degree in Biology, I worked as a research assistant conducting study and analyzing data about colorectal cancer detection. While analyzing data using R programming language, I was attracted to the fact that I can build actual things that solve problems through coding, so I started to learn building web apps in my spare time.</p>
+        <p>As I learn more and improve my skills in web development, I decided to become a full stack web developer to start a new phase. Taking advantage of all my research and data analysis experiences, I believe I can provide creative, structured, and efficient solutions through web applications.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="my-project">
+
+        <h2 class="project-header">Here are my projects</h2> 
+
+        <div class="project-grid">
+            <a href="https://hazrinatn.github.io/project-ecommerce/" target="_blank" class="project-tile">
+                <img src="./assets/burger-brothers.png" alt="project" class="project-img">
+                <p class="project-title">Burger Brothers</p>
+            </a>
+            <a href="https://transmit-chat-app.herokuapp.com/" target="_blank" class="project-tile">
+                <img src="./assets/transmit-chat-app.png" alt="project" class="project-img">
+                <p class="project-title">Transmit (Chat App)</p>
+            </a>
+            <a href="https://hazrinatn.github.io/distortion-effect/" target="_blank" class="project-tile">
+                <img src="./assets/the-distortion-effect.png" alt="project" class="project-img">
+                <p class="project-title">The Distortion Effect</p>
+            </a>
+            <a href="https://hazrinatn.github.io/lg-minimalistic-layout/" target="_blank" class="project-tile">
+                <img src="./assets/lg-minimalistic.png" alt="project" class="project-img">
+                <p class="project-title">LG Minimalistic</p>
+            </a>
+        </div>
+     
+        <a href="https://github.com/hazrinatn" target="_blank" class="btn-show-all">Show All <i class="fas fa-chevron-right"></i></a>
+    </section>
+
+    </section>
+
+    <!-- CONTACT -->
+    <div id="contact" class="contact-form">
+        <form name="contact" method="POST" data-netlify="true" onsubmit="submit" netlify-honeypot="bot-field">
+            
+            <h2>Get In Touch</h2>
+
+            <p class="hidden">
+                <label>
+                  Don’t fill this out if you’re human: <input name="bot-field" />
+                </label>
+              </p>
+            
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="How can I help you?"></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+    </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="social-icon">
+            <a href="https://www.linkedin.com/in/hazrina-tiyas-nussa/" target='_blank' rel='noreferrer'><img src="./assets/linkedin.svg" alt="linkedin"></a>
+            <a href="https://twitter.com/hazrinatn" target='_blank' rel='noreferrer'><img src="./assets/twitter4.svg" alt="twitter"></a>
+            <a href="https://github.com/hazrinatn" target='_blank' rel='noreferrer'><img src="./assets/github.svg" alt="github"></a>
+            <a href="https://instagram.com/hazrinatn" target='_blank' rel='noreferrer'><img src="./assets/instagram.svg" alt="instagram"></a>
+          </div>
+        <small>&copy hazrina 2022</small>
+      </footer>
+
+      <script src="./index.js" type="text/javascript"></script>
+    
+</body>
+</html>
